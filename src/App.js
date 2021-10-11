@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Places from './components/pages/Places';
-import SignUp from './components/pages/SignUp';
+import ContactUs from './components/pages/ContactUs';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/places' component={Places} />
-        <Route path='/sign-up' component={SignUp} />
+        <Route path='/contact-us' component={ContactUs} />
       </Switch>
       </Router>
     </>
