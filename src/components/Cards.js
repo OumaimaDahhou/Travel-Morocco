@@ -13,19 +13,19 @@ function Cards() {
                  src="images/marrakech.jpg"
                  text="Explore the Red City : Marrakech "
                  label='Historical'
-                 path='/services'
+                 path='/places'
                  />
                  <CardItem 
                  src="images/chefchaouen.webp"
                  text="Explore the Blue City : Chefchaouen"
                  label='Adventure'
-                 path='/services'
+                 path='/places'
                  />
                    <CardItem 
                  src="images/fes.jpg"
                  text="Explore Fez City "
                  label='Historical'
-                 path='/services'
+                 path='/places'
                  />
                  </ul>
                  <ul className="cards__items">
@@ -33,19 +33,19 @@ function Cards() {
                  src="images/zagora.jpg"
                  text="Explore Zagora City"
                  label='Adventure, Historical'
-                 path='/services'
+                 path='/places'
                  />
                    <CardItem 
                  src="images/agadir.jpg"
                  text="Explore Agadir City"
                  label='Adventure'
-                 path='/services'
+                 path='/places'
                  />
                  <CardItem 
                  src="images/tanger.jpg"
                  text="Explore Tangier City"
                  label='Adventure'
-                 path='/services'
+                 path='/places'
                  />
             </ul>
            </div> 
